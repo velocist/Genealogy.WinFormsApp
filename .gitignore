@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 *.cd
+appsettings.*.json
+appsettings.json
+log4net.*.config
