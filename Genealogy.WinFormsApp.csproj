@@ -82,14 +82,14 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="8.0.0" />
 		<PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.6" />
 		<PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.6" />
+		<PackageReference Include="velocist.DataAccess" Version="1.0.0" />
+		<PackageReference Include="velocist.LogService" Version="1.0.0" />
+		<PackageReference Include="velocist.Services" Version="1.0.0" />
+		<PackageReference Include="velocist.WinForms" Version="1.0.0" />
+		<PackageReference Include="velocist.WinFormsControlLibrary" Version="1.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\velocist\velocist.DataAccess\velocist.DataAccess.csproj" />
-		<ProjectReference Include="..\..\velocist\velocist.LogService\velocist.LogService.csproj" />
-		<ProjectReference Include="..\..\velocist\velocist.Services\velocist.Services.csproj" />
-		<ProjectReference Include="..\..\velocist\velocist.WinFormsControlLibrary\velocist.WinFormsControlLibrary.csproj" />
-		<ProjectReference Include="..\..\velocist\velocist.WinForms\velocist.WinForms.csproj" />
 		<ProjectReference Include="..\Genealogy.Business\Genealogy.Business.csproj" />
 		<ProjectReference Include="..\Genealogy.Common\Genealogy.Common.csproj" />
 		<ProjectReference Include="..\Genealogy.Gedcom\Genealogy.Gedcom.csproj" />
