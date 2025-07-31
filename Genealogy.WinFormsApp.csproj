@@ -5,6 +5,7 @@
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<UseWindowsForms>true</UseWindowsForms>
 		<OutputType>WinExe</OutputType>
+		<Configurations>Debug;Release</Configurations>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -69,24 +70,24 @@
 	<ItemGroup>
 		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.1" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.6" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.6" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.6">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="8.0.0" />
-		<PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.6" />
-		<PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.6" />
-		<PackageReference Include="velocist.DataAccess" Version="1.0.0" />
-		<PackageReference Include="velocist.LogService" Version="1.0.0" />
-		<PackageReference Include="velocist.Services" Version="1.0.0" />
-		<PackageReference Include="velocist.WinForms" Version="1.0.0" />
-		<PackageReference Include="velocist.WinFormsControlLibrary" Version="1.0.0" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.7" />
+		<PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.7" />
+		<PackageReference Include="velocist.DataAccess" Version="1.0.1-debug" />
+		<PackageReference Include="velocist.LogService" Version="1.0.1-debug" />
+		<PackageReference Include="velocist.Services" Version="1.0.1-debug" />
+		<PackageReference Include="velocist.WinForms" Version="1.0.1-debug" />
+		<PackageReference Include="velocist.WinFormsControlLibrary" Version="1.0.1-debug" />
 	</ItemGroup>
 
 	<ItemGroup>
